@@ -82,3 +82,32 @@ aside {
   border-left: 1px solid #fff;
   width: 25%;
 }
+
+.cart-item {
+  /* border: 1px solid black; */
+  margin: 10px 5px;
+  height: 100px;
+  display: flex;
+}
+
+.cart-item-descip,
+.cart-item-price,
+.cart-item-del,
+.cart-item-img {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 1.5em;
+  width: 25%;
+  height: 100%;
+  /* border: 1px solid magenta; */
+}
+
+.cart-item-img > img {
+  width: 100%;
+  height: 100%;
+}
+#usun {
+  background: inherit;
+  border: none;
+}
